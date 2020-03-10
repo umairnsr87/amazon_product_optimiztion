@@ -15,8 +15,11 @@
 <div class="container">
     <h1>Predict Amazon Optimization Demo</h1>
 
+  <br>
+  <br>
+  <br>
     <!-- Main Input For Receiving Query to our ML -->
-    <form class="form-control" action="{{ url_for('predict')}}"method="post">
+    <form action="{{ url_for('predict')}}"method="post">
 
         <input class="form-control" type="text" name="budgetinrupees" placeholder="Budget in Rupees" required="required" />
 
